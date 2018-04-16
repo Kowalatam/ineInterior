@@ -1,0 +1,112 @@
+body { 
+  text-align: center;
+  color: #f4f0f0;
+  font-family: 'PT Serif', serif;
+} 
+
+/* For width smaller than 768px: */
+#home {
+  padding-top: 250px;
+  padding-bottom: 130px;
+  background: url(https://dl.dropbox.com/s/ly52q8lz2rvyi5l/mediumImage.jpg?dl=0) no-repeat center center fixed;
+}
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body{
+    color: black;
+    background: black;
+  }
+  #home {
+    padding-top: 300px;
+    padding-bottom: 180px;
+    background: url(https://dl.dropbox.com/s/ly52q8lz2rvyi5l/mediumImage.jpg?dl=0);
+  }
+}
+/* For width 1024px and larger: */
+@media only screen and (min-device-width: 1024px) {
+   #home {
+      background: url(https://dl.dropbox.com/s/2gw9rs7l0gk0mk1/bg.jpg?dl=0) no-repeat center center fixed;
+      padding-top: 330px;
+      padding-bottom: 270px;
+      color: #dd0b0b;
+    }
+}
+
+#scrolly {
+  width: 98%;
+  height: 400px;
+  overflow: auto;
+  overflow-y: hidden;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+img {
+  height: 380px;
+  margin-right: 20px;
+  margin-left: 10px;
+  display: inline;
+}
+
+
+.navbar-inverse {
+  border-color: #080808;
+  padding: 10px 10px;
+  background: #ffffff;
+  text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #adaaaa;
+}
+
+#portfolio {
+  background-color: #61574e;
+}
+
+#question {
+  padding: 100px 0 25px 0;
+}
+
+p { 
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#about {
+  background: white;
+  padding: 100px 0 100px 0;
+  margin-top: 20px;
+  color: #9f9e9e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  display: block;
+}
+
+#aboutImage {
+  padding-top: 0;
+}
+
+p:first-of-type {
+  padding-top: 20px;
+}
+
+a:hover { 
+  color: black !important; 
+}
+
+.navbar-toggle {
+    background-color: #646f6f;
+}
+
+.row { 
+  margin: 0; 
+  padding: 0 
+}
+
+footer {
+  color: #333737;
+}
